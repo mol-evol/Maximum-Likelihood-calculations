@@ -1,0 +1,14 @@
+#NEXUS
+BEGIN TAXA;
+      Dimensions NTax=2;
+      TaxLabels fish frog ;
+END;
+
+BEGIN CHARACTERS;
+      Dimensions NChar=4;
+      Format DataType=DNA;
+      Matrix
+        fish   ACAT
+        frog   ACGT
+        ;
+END;
