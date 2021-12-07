@@ -22,7 +22,7 @@ these matrices - the composition and the process matrices
 ''')
 # set up the substitution process
 # this is a relative rate matrix - there are no units
-# The standard composition matrix for this exercise:
+# The standard composition matrix for this exercise: 
 R = np.array([0.0, 0.3, 0.4, 0.3, 0.3, 0.0, 0.3, 0.4, 0.4, 0.3, 0.0, 0.3, 0.3, 0.4, 0.3, 0.0]).reshape(4,4)
 
 # A Jukes-Cantor style rate matrix - all substutitions have equal rates.
