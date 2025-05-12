@@ -28,7 +28,7 @@ The DNA Likelihood Calculator is an educational tool designed to teach the mathe
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/dna-likelihood-calculator.git
+git clone https://github.com/mol-evol/dna-likelihood-calculator.git
 cd dna-likelihood-calculator
 
 # Create and activate a virtual environment (optional but recommended)
@@ -127,8 +127,6 @@ The program provides multiple visualizations to aid understanding:
 - **Model Comparisons**: Comparative plots of different evolutionary models
 - **Parameter Effects**: Visualizations showing how parameter choices affect results
 
-![Rate Matrix Visualization Example](https://example.com/rate_matrix.png)
-![Likelihood Curve Example](https://example.com/likelihood_curve.png)
 
 ## Mathematical Background
 
@@ -161,15 +159,6 @@ This program is particularly useful for:
 - **Self-Study**: Learning the mathematical foundations of evolutionary analysis
 - **Teaching**: Demonstrating complex concepts with interactive examples
 
-## Contributing
-
-Contributions to improve the educational value of this program are welcome:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-improvement`)
-3. Commit your changes (`git commit -am 'Add some amazing improvement'`)
-4. Push to the branch (`git push origin feature/amazing-improvement`)
-5. Create a new Pull Request
 
 ## License
 
