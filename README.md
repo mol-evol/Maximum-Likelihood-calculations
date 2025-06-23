@@ -159,10 +159,6 @@ This tool is designed for:
 - **Experimentation**: See how different models and parameters affect results
 - **Verification**: Check hand calculations against computed results
 
-## Additional Scripts
-
-The repository also includes:
-- `calculateLikelihoods.py`: A simpler, non-interactive demonstration script
 
 ## Tips for Users
 
