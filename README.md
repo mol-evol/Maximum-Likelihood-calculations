@@ -182,10 +182,20 @@ This tool is designed for:
 pip install -r requirements.txt
 ```
 
-**Display issues**: If plots don't appear, check your matplotlib backend
+**Display issues**: If plots don't appear or you get a "no display" error, you may need to configure matplotlib's backend. Add these lines at the very beginning of the Python file, before any other imports:
 ```python
 import matplotlib
 matplotlib.use('TkAgg')  # or 'Qt5Agg'
+```
+This tells matplotlib which graphics system to use. Common backends:
+- `TkAgg`: Works on most systems (requires tkinter)
+- `Qt5Agg`: Alternative if you have PyQt5 installed
+- `Agg`: For saving plots to files without displaying them
+
+If you're using SSH or a remote server without display capabilities, use:
+```python
+import matplotlib
+matplotlib.use('Agg')  # For non-interactive environments
 ```
 
 **Memory errors**: This tool is for small educational examples. Large alignments need specialized software.
