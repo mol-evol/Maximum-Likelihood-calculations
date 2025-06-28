@@ -28,6 +28,7 @@ def display_welcome():
     print("="*70)
     print("   DNA LIKELIHOOD CALCULATOR - INTERACTIVE EDUCATIONAL TOOL")
     print("="*70)
+    print("\nRepository: https://github.com/mol-evol/Maximum-Likelihood-calculations")
     print("\nWelcome! This program will guide you step-by-step through the")
     print("mathematical process of calculating the likelihood of DNA sequence")
     print("evolution. We'll explore:")
