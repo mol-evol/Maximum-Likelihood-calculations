@@ -1,3 +1,8 @@
+"""
+DNA Likelihood Calculator: An Interactive Educational Tool for Phylogenetics
+Repository: https://github.com/mol-evol/Maximum-Likelihood-calculations
+"""
+
 import numpy as np
 from scipy import linalg
 import matplotlib.pyplot as plt

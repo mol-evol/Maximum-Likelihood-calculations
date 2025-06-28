@@ -209,7 +209,7 @@ If you use this tool in teaching or research:
 
 ```
 DNA Likelihood Calculator: An Interactive Educational Tool for Phylogenetics
-https://github.com/[your-username]/dna-likelihood-calculator
+https://github.com/mol-evol/Maximum-Likelihood-calculations
 ```
 
 ## Contact
