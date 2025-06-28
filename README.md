@@ -28,8 +28,8 @@ This program provides a step-by-step, interactive tutorial that guides users thr
 
 1. Clone or download this repository:
 ```bash
-git clone <repository-url>
-cd dna-likelihood-calculator
+git clone https://github.com/mol-evol/Maximum-Likelihood-calculations
+cd Maximum-Likelihood-calculations
 ```
 
 2. Install required packages:
