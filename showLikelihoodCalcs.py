@@ -204,7 +204,7 @@ def step1_choose_rate_matrix():
         print("- Transitions (A↔G, C↔T) have rate 2.0")
         print("- Transversions have rate 1.0")
     
-    pause_for_user("\nWould you like to see a visual representation? Press Enter...")
+    pause_for_user("\nPress Enter to see a visual representation...")
     visualize_matrix_interactive(r, f"{model_name} Rate Matrix")
     
     return r, model_name
